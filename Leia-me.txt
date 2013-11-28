@@ -1,0 +1,6 @@
+Para gerar o token acesse:
+http://www.pinceladasdaweb.com.br/instagram/access-token/
+
+use o scrtipt
+ insta.js
+

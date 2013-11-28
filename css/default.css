@@ -1,0 +1,158 @@
+
+body{
+	display: none;
+	margin: 0;
+	padding: 0;
+	background:url(../img/bg-top.png) no-repeat #000;
+}
+
+#fotos{
+	
+	height: 331px;
+	width: 918px;
+	margin: 0 auto;
+	overflow-x: scroll;
+	overflow-y:hidden;
+	position: relative;
+	top: 0px;
+
+}
+#content{
+	
+	height: 310px;
+	width: 918px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+
+}
+#instagram{
+	display: inline-block;
+	height: 327px;
+	margin: 0 auto;
+	white-space:nowrap;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	margin-top: 0px;
+	padding-left: 0px;
+	position: relative;
+}
+#instagram  li{
+	display: inline-block;
+	list-style:none;
+	white-space:nowrap; 
+
+}
+#instagram  li a{
+	display: inline-block;
+}
+
+#instagram img{
+	border: none;
+}
+.txt-logo{
+	font-family: 'Yellowtail', cursive;
+	color: #333;
+	display: block;
+	font-size: 90px;
+	text-shadow: 2px 0px 3px #333;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: -100px;
+	margin-bottom: 10px;
+	float: left;
+}
+.foto-topo{
+	display: block;
+	float: left;
+	width: 265px;
+	height: 265px;
+	background: url(../img/allan.png);
+
+}
+#bt-next{
+	background: url(../img/seta1.png);
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	float: right;
+	bottom: 180px;
+	
+	cursor: pointer;
+}
+#bt-prev{
+	background: url(../img/seta2.png);
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	float: left;
+	bottom: 180px;
+	
+	cursor: pointer;
+}
+.bt:hover{
+	opacity: 0.5;
+}
+#face{
+	display: block;
+	float: left;
+	background: #FFF;
+	width: 400px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px #333;
+	margin-top: 25px;
+	margin-bottom: 60px
+}
+.centro{
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+#twitter{
+	display: block;
+	float: right;
+	width: 400px;
+	margin-top: 25px;
+	margin-bottom: 60px
+
+}
+#twitter iframe{
+box-shadow: 5px 5px 10px #333;
+
+}
+.rodape{
+	display: block;
+	width: 100%;
+	height: 50px;
+	background: #333;
+	float: left;
+	margin-top: 20px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 100;
+}
+.rodape > .centro > span{
+	display: block;
+	float: right;
+	font-family: "Arial";
+	font-size: 16px;
+	color: #FFF;
+	margin-top: 10px;
+} 
+.rodape > .centro > span > a{
+     text-decoration: none;
+     color: #999;
+     font-size: 25px;
+     font-family: 'Yellowtail', cursive;
+     transition: 1s;
+
+}
+.rodape > .centro > span > a:hover{
+	text-shadow:2px 1px 1px #FFF;
+}
+
